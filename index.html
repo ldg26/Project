@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Market City</title>
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body class="home-page">
+
+   <!-- Top Navbar -->
+   <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+       <div class="container-fluid">
+           <a class="navbar-brand" href="index.html">
+               <img src="https://marketcitynwk.com/wp-content/uploads/2022/04/Logo_White-text-120x116.png" alt="Market City Logo" width="50">
+           </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar" aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="topNavbar">
+               <form class="d-flex ms-auto">
+                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                   <button class="btn btn-outline-light" type="submit">Search</button>
+               </form>
+           </div>
+       </div>
+   </nav>
+
+   <!-- Secondary Navigation Bar -->
+   <nav class="navbar navbar-expand-lg secondary-navbar">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#secondNavbar" aria-controls="secondNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="secondNavbar">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+                    <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+                        <li><a class="dropdown-item" href="menu.html#mexican-dishes">Mexican Dishes</a></li>
+                        <li><a class="dropdown-item" href="menu.html#american-dishes">American Dishes</a></li>
+                        <li><a class="dropdown-item" href="menu.html#smoothies-drinks">Smoothies/Drinks</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Page</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+   <!-- Hero Carousel -->
+   <div id="heroCarousel" class="carousel slide my-4" data-bs-ride="carousel">
+       <div class="carousel-inner">
+           <div class="carousel-item active">
+               <img src="https://marketcitynwk.com/wp-content/uploads/2022/04/274911543_102741545695774_6217436061393789369_n.png" class="d-block w-100" alt="Market City Image">
+               <div class="carousel-caption d-none d-md-block">
+                   <h1>Welcome to Market City!</h1>
+               </div>
+           </div>
+           <div class="carousel-item">
+               <img src="https://assets.bonappetit.com/photos/5d35e0c9828d250008269a17/16:9/w_2560%2Cc_limit/HR-Waffles-Social-Atlanta.jpg" class="d-block w-100" alt="Delicious Cake">
+               
+           </div>
+           <div class="carousel-item">
+               <img src="https://marketcitynwk.com/wp-content/uploads/2022/04/pancakes-scaled.jpg" class="d-block w-100" alt="Fluffy Pancakes">
+               
+           </div>
+       </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+       </button>
+   </div>
+
+   <!-- Cards Section -->
+   <div class="container-fluid my-4">
+       <div class="row">
+           <div class="col-md-4">
+               <div class="card mb-3">
+                   <img src="https://marketcitynwk.com/wp-content/uploads/2022/04/IMG-3515-600x400.jpeg" class="card-img-top" alt="Mexican Food">
+                   <div class="card-body">
+                       <h5 class="card-title">Breakfast, Authentic Mexican Dishes, and American dishes!</h5>
+                       <p class="card-text">Enjoy fresh, high-quality ingredients that provide an authentic taste of Mexican flavors.</p>
+                       <a href="menu.html" class="btn btn-primary">View Menu</a>
+                   </div>
+               </div>
+           </div>
+           <div class="col-md-4">
+               <div class="card mb-3">
+                   <img src="https://marketcitynwk.com/wp-content/uploads/2022/04/IMG-5933-600x400.jpeg" class="card-img-top" alt="Catering Services">
+                   <div class="card-body">
+                       <h5 class="card-title">Catering Services</h5>
+                       <p class="card-text">We provide customized catering for parties, weddings, and corporate gatherings. We make accomadations for your needs!</p>
+                       <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                   </div>
+               </div>
+           </div>
+           <div class="col-md-4">
+               <div class="card mb-3">
+                   <img src="https://marketcitynwk.com/wp-content/uploads/2022/04/IMG-3304.jpeg" class="card-img-top" alt="Delivery Services">
+                   <div class="card-body">
+                       <h5 class="card-title">Takeout and Delivery</h5>
+                       <p class="card-text">Enjoy your favorite meals at home with our takeout and delivery services. Orders are freshly made and packaged carefully.</p>
+                       <a href="menu.html" class="btn btn-primary">Order Now</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- Footer -->
+   <footer>
+       <div class="container-fluid text-center">
+           <p>&copy; Market City, November 19 2024 | <a href="#">Terms of Service</a> | <a href="#">Privacy Statement</a></p>
+       </div>
+   </footer>
+
+   <!-- Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<!-- DEVELOPER: Luis Gaspar, IS117-003, Fall 2024 ->

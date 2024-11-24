@@ -1,0 +1,514 @@
+body.home-page {
+    font-family: Arial, sans-serif;
+    background-color: #d5c9af;
+    margin: 0;
+}
+
+body.home-page .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.home-page .navbar-brand img {
+    border-radius: 50%;
+}
+
+body.home-page .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.home-page .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    border-radius: 8px; 
+    text-align: center; 
+    color: #fff; 
+    font-size: 1.5rem; 
+}
+
+.home-page .carousel-caption h1 {
+    font-weight: bold; 
+    margin: 0; 
+}
+
+
+body.home-page .secondary-navbar {
+    background-color: #f9f3e7;
+    border-bottom: 2px solid #d2b48c;
+}
+
+body.home-page .secondary-navbar .nav-link {
+    color: #8b4513;
+    font-weight: bold;
+}
+
+body.home-page .secondary-navbar .nav-link:hover {
+    color: #5a3214;
+}
+
+body.home-page .secondary-navbar .nav-link.active {
+    color: #5a3214;
+    text-decoration: underline;
+}
+
+body.home-page .carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+body.home-page .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+body.home-page .card-body {
+    text-align: center;
+}
+
+body.home-page .card-title {
+    font-weight: bold;
+    color: #343a40;
+}
+
+body.home-page .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+body.home-page footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    bottom: 0; 
+}
+
+body.home-page footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body.home-page footer a:hover {
+    text-decoration: underline;
+}
+
+/* Utility Classes */
+body.home-page .my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+body.home-page .text-center {
+    text-align: center !important;
+}
+
+body.home-page .container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* About Page Specific Styles */
+
+body.about-page {
+    font-family: Arial, sans-serif;
+    background-color: #d5c9af;
+    margin: 0;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+body.about-page .highlight-section {
+    background-color: #f9f3e7;
+    padding: 50px 20px;
+    text-align: center;
+    color: #5a3214;
+    border-bottom: 3px solid #d2b48c;
+}
+
+body.about-page .highlight-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+body.about-page .highlight-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    line-height: 1.8;
+}
+
+body.about-page .highlight-section .btn-primary {
+    background-color: #8b4513;
+    border: none;
+}
+
+body.about-page .highlight-section .btn-primary:hover {
+    background-color: #5a3214;
+}
+
+body.about-page .feature-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+body.about-page .feature-box:hover {
+    transform: translateY(-5px);
+}
+
+body.about-page .feature-box h4 {
+    color: #8b4513;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+body.about-page .feature-box p {
+    font-size: 1rem;
+    color: #333;
+}
+
+body.about-page footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+/* Menu Page */
+body.menu-page {
+    font-family: Arial, sans-serif;
+    background: url('https://png.pngtree.com/thumb_back/fw800/background/20241007/pngtree-restaurant-menu-with-fast-food-images-through-online-banners-social-image_16290915.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+
+.menu-page .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.menu-page .secondary-navbar {
+    background-color: #f9f3e7;
+    border-bottom: 2px solid #d2b48c;
+}
+
+.menu-page .secondary-navbar .nav-link {
+    color: #8b4513;
+    font-weight: bold;
+}
+
+.menu-page .secondary-navbar .nav-link:hover {
+    color: #5a3214;
+}
+
+.menu-page .secondary-navbar .nav-link.active {
+    color: #5a3214;
+    text-decoration: underline;
+}
+
+
+.menu-page .menu-section {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-page .menu-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.menu-page .menu-text {
+    flex: 1;
+}
+
+.menu-page .menu-text h4 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.menu-page .menu-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-page .menu-text ul li {
+    padding: 8px 0;
+    font-size: 1.2rem;
+}
+
+
+.menu-page footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    bottom: 0; 
+}
+
+.menu-page footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-page footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .menu-page .menu-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-page .menu-image {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .menu-page .menu-text h4 {
+        text-align: center;
+    }
+}
+
+
+.menu-page.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.menu-page .menu-images {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 10px; 
+}
+
+.menu-page .menu-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+
+.menu-page .menu-section {
+    background-color: rgba(255, 255, 255, 0.95); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Menu Titles */
+.menu-page .menu-text h4 {
+    font-size: 1.8rem;
+    color: #5a5a5a; 
+    font-weight: bold;
+    border-bottom: 2px solid #ccc; 
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+/* Menu Items */
+.menu-page .menu-text ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.menu-page .menu-text ul li {
+    font-size: 1.2rem;
+    color: #333;
+    padding: 5px 0; 
+    transition: all 0.2s; 
+}
+
+.menu-page .menu-text ul li:hover {
+    color: #d2691e; 
+    padding-left: 5px;
+    font-weight: bold; 
+}
+
+/*Contact page*/
+.contact-page {
+    font-family: Arial, sans-serif;
+    background: url('https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/hjrizxop/85945c8e-b3cb-4545-ae82-d49bfa043cc0.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-page .location-box {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-page .location-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-page .location-frame {
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.contact-page .secondary-navbar {
+    background-color: #f9f3e7;
+    border-bottom: 2px solid #d2b48c;
+}
+
+.contact-page .secondary-navbar .nav-link {
+    color: #8b4513;
+    font-weight: bold;
+}
+
+.contact-page .secondary-navbar .nav-link:hover {
+    color: #5a3214;
+}
+
+.contact-page .secondary-navbar .nav-link.active {
+    color: #5a3214;
+    text-decoration: underline;
+}
+
+.contact-page .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.contact-page .container {
+    flex: 1;
+}
+
+.contact-page footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    bottom: 0; 
+}
+
+/*location*/
+
+body.location-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100%; 
+    background: url('https://simply-delicious-food.com/wp-content/uploads/2022/09/Breakfast-board28-500x375.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+
+.secondary-navbar {
+    background-color: #f9f3e7;
+    border-bottom: 2px solid #d2b48c;
+}
+.secondary-navbar .nav-link {
+    color: #8b4513;
+    font-weight: bold;
+}
+.secondary-navbar .nav-link:hover {
+    color: #5a3214;
+}
+.secondary-navbar .nav-link.active {
+    color: #5a3214;
+    text-decoration: underline;
+}
+
+.location-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+}
+
+.directions-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(233, 236, 239, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    bottom: 0; 
+}
+
+body.location-page footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/*DEVELOPER: Luis Gaspar , IS117-003, Fall 2024 */
+
